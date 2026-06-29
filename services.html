@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Services | ETC Hearing Solutions Inc.</title>
+  <meta name="description" content="ETC Hearing Solutions Inc. services — audiometric analysis, reporting, hearing testing, staffing, and Workers' Compensation consultation." />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='12' fill='%230D2137'/><text y='.9em' x='.05em' font-size='72' fill='%232471B8'>⚕</text></svg>" />
+  <style>
+    .service-detail { display: grid; grid-template-columns: 1fr 2fr; gap: 40px; align-items: start; padding: 40px 0; border-bottom: 1px solid var(--gray-100); }
+    .service-detail:last-child { border-bottom: none; }
+    .service-detail-icon { background: var(--blue-pale); border-radius: var(--radius); padding: 28px; display: flex; flex-direction: column; align-items: center; gap: 14px; text-align: center; }
+    .service-detail-icon svg { width: 40px; height: 40px; stroke: var(--blue-accent); }
+    .service-detail-icon .icon-label { font-family: var(--font-heading); font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--blue-accent); }
+    .service-detail h3 { font-size: 1.2rem; color: var(--text-main); margin-bottom: 10px; }
+    .service-detail p { font-size: 0.95rem; color: var(--text-body); margin-bottom: 12px; }
+    .service-bullets { display: flex; flex-direction: column; gap: 8px; margin-top: 14px; }
+    .service-bullet { display: flex; gap: 10px; align-items: flex-start; font-size: 0.9rem; color: var(--text-body); }
+    .service-bullet::before { content: ''; width: 6px; height: 6px; background: var(--blue-accent); border-radius: 50%; flex-shrink: 0; margin-top: 7px; }
+    @media (max-width: 700px) { .service-detail { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+
+  <!-- TOP BAR -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <span>ETC Hearing Solutions Inc. — Serving Industry Nationwide Since 1970</span>
+      <div class="top-bar-right">
+        <a href="tel:7700000000">
+          <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.95a16 16 0 0 0 6.29 6.29l.95-.85a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          (770) 000-0000
+        </a>
+        <a href="contact.html">Contact Us</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="header-inner container">
+      <a href="index.html" class="site-logo">
+        <span class="logo-name">ETC Hearing Solutions Inc.</span>
+        <span class="logo-abbr">Environmental Technology Corporation</span>
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="contact.html" class="nav-cta">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- PAGE HERO -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+        <span>Services</span>
+      </div>
+      <h1>Our Services</h1>
+      <p>Analysis, reporting, testing, and staffing for occupational hearing conservation programs.</p>
+    </div>
+  </section>
+
+  <!-- SERVICES DETAIL -->
+  <section class="section-pad">
+    <div class="container">
+
+      <div class="service-detail" id="analysis">
+        <div class="service-detail-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <span class="icon-label">Analysis</span>
+        </div>
+        <div>
+          <h3>Audiometric Analysis</h3>
+          <p>Expert review and interpretation of audiometric test results. Each set of results is carefully evaluated to identify hearing threshold shifts, standard threshold shifts (STS), and any changes that may require follow-up or reporting under OSHA standards.</p>
+          <p>Analysis is performed with attention to both individual employee health and employer compliance obligations.</p>
+          <div class="service-bullets">
+            <div class="service-bullet">Identification of OSHA standard threshold shifts (STS)</div>
+            <div class="service-bullet">Year-over-year hearing threshold comparison</div>
+            <div class="service-bullet">Baseline revision recommendations</div>
+            <div class="service-bullet">Referral recommendations when appropriate</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-detail" id="reporting">
+        <div class="service-detail-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+          <span class="icon-label">Reporting</span>
+        </div>
+        <div>
+          <h3>Reporting</h3>
+          <p>Clear, professional reports prepared for both employers and employees following audiometric testing. Reports are written to meet OSHA recordkeeping requirements and are organized for easy review by HR, safety personnel, and employees.</p>
+          <div class="service-bullets">
+            <div class="service-bullet">Individual employee audiogram reports</div>
+            <div class="service-bullet">Employer summary and compliance documentation</div>
+            <div class="service-bullet">OSHA STS notification letters</div>
+            <div class="service-bullet">Workers' Compensation documentation support</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-detail" id="testing">
+        <div class="service-detail-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M8 14s1.5 2 4 2 4-2 4-2"/><line x1="9" y1="9" x2="9.01" y2="9"/><line x1="15" y1="9" x2="15.01" y2="9"/></svg>
+          <span class="icon-label">Testing</span>
+        </div>
+        <div>
+          <h3>Audiometric Testing</h3>
+          <p>Hearing testing services using properly calibrated audiometric equipment. Testing is conducted following OSHA and CAOHC guidelines to ensure reliable, accurate results that hold up under regulatory review.</p>
+          <div class="service-bullets">
+            <div class="service-bullet">Baseline and annual audiometric testing</div>
+            <div class="service-bullet">Testing using calibrated microprocessor audiometers</div>
+            <div class="service-bullet">Onsite and mobile testing options available</div>
+            <div class="service-bullet">Conducted in accordance with OSHA 1910.95 standards</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-detail" id="staffing">
+        <div class="service-detail-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <span class="icon-label">Staffing</span>
+        </div>
+        <div>
+          <h3>Occupational Health Staffing</h3>
+          <p>Qualified personnel available to support your hearing conservation program. Whether you need a CAOHC-certified occupational hearing conservationist for a testing event or ongoing program support, ETCH's can help.</p>
+          <div class="service-bullets">
+            <div class="service-bullet">CAOHC-certified technicians</div>
+            <div class="service-bullet">Audiologist oversight and consultation</div>
+            <div class="service-bullet">Flexible staffing for testing events or ongoing programs</div>
+            <div class="service-bullet">Personnel familiar with OSHA Noise Standard requirements</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="service-detail" id="workers-comp">
+        <div class="service-detail-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          <span class="icon-label">Consultation</span>
+        </div>
+        <div>
+          <h3>Workers' Compensation Consultation</h3>
+          <p>ETCH's maintains current knowledge of Workers' Compensation regulations for noise-induced hearing loss across multiple states. Rhonda provides consultation to employers managing claims and can assist in preparing the documentation needed to support or respond to a hearing loss claim.</p>
+          <div class="service-bullets">
+            <div class="service-bullet">State-specific WC rules for noise-induced hearing loss</div>
+            <div class="service-bullet">Documentation review and preparation</div>
+            <div class="service-bullet">Expert consultation for employers and legal teams</div>
+            <div class="service-bullet">Audiometric record review for claim evaluation</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="cta-band">
+    <div class="container">
+      <h2>Have Questions About Our Services?</h2>
+      <p>Contact us to discuss how ETCH's can support your hearing conservation program.</p>
+      <div class="cta-actions">
+        <a href="contact.html" class="btn btn-white">Contact Us</a>
+        <a href="tel:7700000000" class="btn btn-white-border">Call (770) 000-0000</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-grid">
+          <div>
+            <div class="footer-logo-name">ETC Hearing Solutions Inc.</div>
+            <div class="footer-logo-abbr">Environmental Technology Corporation</div>
+            <p class="footer-desc">Expert audiometric analysis, reporting, and occupational health staffing services. Serving industry nationwide since 1970.</p>
+          </div>
+          <div>
+            <div class="footer-heading">Quick Links</div>
+            <ul class="footer-links">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <div>
+            <div class="footer-heading">Contact</div>
+            <div class="footer-contact-row">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12a19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 3.6 1.27h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.95a16 16 0 0 0 6.29 6.29l.95-.85a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              <a href="tel:7700000000">(770) 000-0000</a>
+            </div>
+            <div class="footer-contact-row">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+              <span>Mon–Fri: 8:00 AM – 5:00 PM</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container footer-bottom">
+      <span class="footer-copy">&copy; 2025 ETC Hearing Solutions Inc. / Environmental Technology Corporation. All rights reserved.</span>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
